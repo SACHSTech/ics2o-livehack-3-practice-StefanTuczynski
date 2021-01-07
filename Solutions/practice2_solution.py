@@ -13,7 +13,7 @@ total = 0
 days_count = 0
 done = False
 
-while not done:
+while not False:
   daily_amt = float(input("Enter a daily spent amount (-1 to stop): "))
 
   if daily_amt == -1:
